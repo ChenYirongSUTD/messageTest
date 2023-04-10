@@ -18,7 +18,7 @@
 
 <script>
   function ToggleButton() {
-    $.post("http://64.226.110.211:3000/update", { led: 1 }, function (data) {
+    $.post("https://64.226.110.211:3000/update", { led: 1 }, function (data) {
       console.log("success")
       console.log(data);
     }).fail(function (error) {
